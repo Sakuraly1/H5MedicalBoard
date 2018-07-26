@@ -1,0 +1,144 @@
+.doc-title{
+    display: flex;
+    color: black;
+    width: 100%;
+    height: 2.5rem;
+    margin-top:0.5rem;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    width: 22.5rem;
+    height: 100%;
+    background-color: white;
+}
+.searchbar-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:5.5rem;
+    height:2rem;
+    background-color: #9575CD;
+    margin-left: 0.4rem;
+    font-size: 0.88rem;
+    font-weight: 100;
+    color: white;
+}
+
+.searchbar-select-visible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width:5.5rem;
+    height:2rem;
+    font-size: 0.88rem;
+    font-weight: 100;
+    color:#9575CD;
+    margin-left: 0.4rem;
+    background-color: white;
+    font-weight:200
+}
+.searchbar-button{
+    width: 3.05rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #9575CD;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+    border: none;
+    outline: none;
+}
+.searchbar input[type="text"]{
+    width: 14.3rem;
+    height: 1.6rem;
+    border: 0px;
+    font-size: 0.92rem;
+    margin-left: 0.4rem;
+    outline:none;
+    font-weight: 200;
+}
+.doc-keyboard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top:0.5rem;
+    height: 3.5rem;
+    margin-top: 0.5rem;
+    color:#9575CD;
+    font-size: 0.88rem;
+    font-weight: 200;
+}
+.doc-keyboardlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+.doc-keyboardlist div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.6rem;
+    width: 1.5rem;
+    background-color: white
+}
+.doc-content{
+    width: 100%;
+    height: 30.4rem;
+    overflow-y: scroll;
+    margin-top: 0.5rem;
+}
+.doc-content-list{
+    display: inline-block;
+    width: 12.6rem;
+    height: 6rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    vertical-align: top;
+}
+.doc-content-list:nth-child(2n){
+    margin-left: 0.7rem;
+}
+.doc-content-list img{
+    width: 3.56rem;
+    height: 5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.doc-content-list-detail{
+    display: inline-block;
+    height: 5rem;
+    width: 7.6rem;
+    margin-top:0.5rem;
+    margin-left: 0.5rem;
+    vertical-align: top;
+    font-size: 0.4rem;
+    color:#353535
+}
+.doc-content-list-detail div{
+    margin-bottom: 0.08rem;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    /* WebKit browsers */ 
+   color: #888888 ; 
+   font-weight: 200
+   } 
+   input:-moz-placeholder, textarea:-moz-placeholder { 
+   /* Mozilla Firefox 4 to 18 */ 
+   color: #888888 ; 
+   font-weight: 200
+   } 
+   input::-moz-placeholder, textarea::-moz-placeholder { 
+    /* Mozilla Firefox 19+ */ 
+   color: #888888 ; 
+   font-weight: 200
+   } 
+   input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    /* Internet Explorer 10+ */ 
+   color: #888888 ; 
+   font-weight: 200
+   }   

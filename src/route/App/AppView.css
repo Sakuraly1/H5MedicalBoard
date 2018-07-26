@@ -1,0 +1,233 @@
+
+.container{
+    width: 26rem;
+    height: 46.6rem;
+    margin-left: 0.5rem;
+    padding-top: 0.5rem;
+    color: white;
+    padding-right: 0.5rem;
+}
+.shuffling{
+    width: 100%;
+    height: 9rem;
+}
+.shuffling-title{
+    display: flex;
+    position: absolute;
+    width: 10.4rem;
+    height: 2.25rem;
+    background-color: rgba(255,255,255,0);
+    align-items: center;
+    z-index: 2;
+    background: -webkit-linear-gradient(left, rgba(160,200,220,0.55) , rgba(255, 255, 255, 0)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgba(160,200,220,0.55) , rgba(255, 255, 255, 0)); /* Opera 11.1 - 4.8.0 */
+    background: -moz-linear-gradient(right,rgba(160,200,220,0.55) , rgba(255, 255, 255, 0)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgba(160,200,220,0.55) , rgba(255, 255, 255, 0)); /* 标准的语法（必须放在最后） */
+}
+.carousel{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%; 
+}
+.shuffling-word{
+    width: 4.8rem;
+    height: 1.2rem;
+    font-size: 1rem;
+    margin-left: 0.4rem;
+    font-weight: 100;
+}
+.block-left{
+    display: inline-block;
+    width: 12.75rem;
+    height: auto;
+    margin-top: 0.5rem;
+    vertical-align: top;
+}
+.block-right{
+    display: inline-block;
+    width: 12.75rem;
+    height: auto;
+    margin-left: 0.5rem;
+    vertical-align: top;
+}
+.block-introduce{
+    display: inline-block;
+    width: 12.75rem;
+    height: 12.75rem;
+    background-color: #FE784E
+}
+.navigation{
+    margin-top: 0.5rem;
+    background-color: #FFD54F;
+}
+.block-introduce span{
+    width: 4.8rem;
+    height: 1.2rem;
+    font-size: 1.2rem;
+    margin-left: 0.4rem;
+    font-weight: 100;
+}
+.block-introduce img{
+    height:7.1rem;
+    width:7rem;
+    margin-left: 2.875rem;
+    margin-top: 1.95rem;
+}
+.block-fengcai{
+    display: inline-flex;
+    width: 12.75rem;
+    height: 6.25rem;
+    margin-top: 0.5rem;
+    background-color: #F06292;
+    align-items: center;
+}
+.guide{
+    background-color: #EF93FF;
+}
+.block-fengcai-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2rem;
+}
+.block-fengcai span{
+    font-size:1.6rem;
+    font-weight: 200;
+    margin-left: 0.4rem;
+}
+
+.block-middle{
+    width: 100%;
+    height: 7.5rem;
+    margin-top: 0.5rem;
+}
+.block-middle-img{
+    display: inline-block;
+    width: 17.75rem;
+    height: 7.5rem;
+}
+.block-introduce5{
+    display: inline-flex;
+    flex-direction: column;
+    width: 8.25rem;
+    height: 7.5rem;
+    background-color:#FFB33A;
+    vertical-align: top;
+}
+.block-introduce5 img{
+    width: 2.3rem;
+    height: 2.5rem;
+    margin-left:2.9752rem;
+    margin-top: 2.5rem;
+}
+.block-introduce5 span{
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+    font-weight: 100;
+}
+.block-bottom{
+    display: flex;
+    width: 100%;
+    height: 8.8rem;
+    margin-top: 0.5rem;
+    background-color: #4FC3F7; 
+}
+.block-bottom-left{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%; 
+}
+.left-span1{
+    font-size: 1.6rem;
+    margin-left: 0.8rem;
+    font-weight: 300;
+}
+.left-span2{
+    font-size: 0.88rem;
+    margin-left: 0.8rem;
+    font-weight: 100;
+    margin-bottom: 0.4rem;
+}
+.block-bottom-right{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 45%;
+    height: 100%;
+    margin-right: 5%;
+}
+.right-span1{
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: 0.4rem;
+    
+}
+.right-span2{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+.right-span3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9.2rem;
+    height: 4.2rem;
+    font-weight: 200;
+    font-size: 0.52rem
+}
+.sanjiao_right{
+    width:0;
+    height:0;
+    overflow:hidden;
+    font-size: 0;     /*是因为, 虽然宽高度为0, 但在IE6下会具有默认的 */
+    line-height: 0;  /* 字体大小和行高, 导致盒子呈现被撑开的长矩形 */
+    border-width:0.5rem;
+    border-style: dashed dashed dashed solid;
+    border-color: transparent transparent transparent white;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    color: black
+}  
+.swiper-wrapper{
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.swiper-pagination-bullet{
+    width: 0.5rem;
+    height: 0.5rem
+}
+.swiper-pagination-bullet-active{
+    background: white
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 0.4rem;
+}

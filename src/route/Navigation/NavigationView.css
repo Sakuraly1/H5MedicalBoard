@@ -1,0 +1,148 @@
+
+.navi-container{
+    /* width: 65rem;
+    height: 56rem; */
+    width: 26rem;
+    height: 26rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #F0F0F0;
+    padding-right: 0.5rem;
+}
+
+.navi-content{
+    width: 26rem;
+    position: absolute;
+}
+
+.navi-hotkey{
+    width: 100%;
+    height: 19.8rem;
+    background-color: white;
+    margin-top: 0.5rem;
+    
+}
+.navi-hotkey .title{
+    display: flex;
+    height: 0.9rem;
+    padding-top: 0.4rem;
+    align-items: center;
+    font-size: 0.8rem;;
+}
+.navi-hotkey .title div{
+    background-color: black;
+    width: 2px;
+    height: 100%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem
+}
+.hotkey-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    height: 11rem;
+}
+.img-container{
+    width: 5.6rem;
+    display: flex;
+    justify-content: center;
+}
+.navi-title{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+}
+.navi-searching{
+    margin-top: 0.5rem;
+    height: 18.8rem;
+    overflow-y: scroll;
+}
+.searchList{
+    width: 100%;
+    background-color: white;
+    height: 2rem;
+    margin-top: 0.4rem;
+   
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #353535;
+    /* color: red; */
+}
+
+.naving-list1{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+}
+.list1-body{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 100%;
+    background-color: white;
+    color:#9575CD;
+    font-size:1rem;
+    justify-content: space-between
+}
+.naving-list2{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    background-color: white;
+    color:#666666;
+    font-size: 0.8rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.naving-list3{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 4.5rem;
+    background-color: white;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+.naving-list3-part:last-child{
+    margin-right: 4rem;
+}
+.naving-list3-part:first-child{
+    margin-left: 4rem;
+}
+.naving-list3-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.naving-list3-part span{
+    font-size: 0.48rem;
+    white-space:nowrap;
+    position: absolute;
+    margin-top: 2.4rem;
+}
+.naving-list3-part div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border: solid 1.2px  #9575CD;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0.2rem;
+}
+.naving-list3-line{
+    width: 19rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    height: 6px;
+    background-color: #9575CD;
+}

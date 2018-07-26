@@ -1,0 +1,40 @@
+{
+    "input": {
+        "locationType": "AverageInertial",
+        "androidCompassHeadingType": "absoluteAlpha",
+        "iosCompassHeadingType": "webkit",
+        "defaultCompassHeadingType": "absoluteAlpha",
+        "signatureUrl": "https://apiweixin.ipalmap.com:18084/api/getSignature",
+        "xcxSocketUrl": "wss://apilocation.ipalmap.com/websocket/location",
+        "cloudSocketUrl": "wss://apilocation.ipalmap.com/websocket/ble",
+        "storeInfoUrl": "http://106.14.183.222:8031/location/message",
+        "uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825",
+        "wxAppId": "wxe21893a8a56de849",
+        "bleType": "wx",
+        "buildingId": "06YS01"
+    },
+    "output": {
+        "compassHeading": 0,
+        "location": {
+            "x": 0,
+            "y": 0,
+            "floor": "0"
+        }
+    },
+    "average": {
+        "averageServer": "http://rtls1.palmap.cn:40040",
+        "averageLocationTrustRatio": 0.1,
+        "stepLength": 0.58,
+        "maxOffsetDistance": 3,
+        "maxOffsetTime": 2000,
+        "minCalibrationDistance": 5,
+        "beaconsServer": "https://apicindy.ipalmap.com/LocationPoint/Building",
+        "floorHeight": 1.6
+    },
+    "fingerprint": {
+        "beaconsServer": "https://apicindy.ipalmap.com/FingerPrint/ByBuilding",
+        "maxOffsetDistance": 3,
+        "trustFinger": 0.15,
+        "fingerInterval": 800
+    }
+}
